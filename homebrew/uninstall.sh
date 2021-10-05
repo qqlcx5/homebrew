@@ -229,7 +229,7 @@ if [[ -s $HOMEBREW_REPOSITORY/.gitignore ]]; then
 else
   gitignore=$(curl -fsSL https://cdn.jsdelivr.net/gh/Homebrew/brew/.gitignore)
 fi
-[[ -n $gitignore ]] || abort "Failed to fetch Homebrew .gitignore!"
+[[ -n $gitignore ]] || abort "--- Failed to fetch Homebrew .gitignore!"
 
 {
   while read -r l; do
