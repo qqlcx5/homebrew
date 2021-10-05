@@ -9,8 +9,7 @@ abort() {
 
 strip_s() {
   local s
-  for s in "$@"; 
-  do
+  for s in "$@"; do
     s=${s## }
     echo "${s%% }"
   done
