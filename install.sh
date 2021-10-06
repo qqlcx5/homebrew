@@ -985,7 +985,6 @@ fi
 echo "- 🎉 恭喜，安装成功！运行 \`brew help\` 开始体验吧"
 echo "- 更多文档: "
 echo "    ${tty_underline}https://docs.brew.sh${tty_reset}"
-echo "    ${tty_underline}https://brew.idayer.com${tty_reset}"
 
 
 if [[ -n "${HOMEBREW_ON_LINUX-}" ]]
