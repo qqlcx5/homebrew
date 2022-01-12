@@ -17,7 +17,7 @@ curl: (7) Failed to connect to raw.githubusercontent.com port 443: Operation tim
 
 好奇为什么官方不通过`JSDelivr`等免费的CDN解决该问题？
 
-在此基于官方的源码上修改其中`raw.githubusercontent.com`切换成中科大镜像，亲测速度还不错，哈哈放心食用。
+所以在此基于官方的源码上修改其中`raw.githubusercontent.com`切换成中科大镜像，亲测速度还不错，哈哈放心食用。
 
 ## 快速安装
 
